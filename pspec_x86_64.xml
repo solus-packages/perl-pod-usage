@@ -2,8 +2,8 @@
     <Source>
         <Name>perl-pod-usage</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -19,19 +19,20 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/Pod/Usage.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/x86_64-linux-thread-multi/auto/Pod/Usage/.packlist</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/pod2usage</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/Pod/Usage.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/Pod/Usage/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man1/pod2usage.1</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::Usage.3</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-01-16</Date>
+        <Update release="3">
+            <Date>2018-11-21</Date>
             <Version>1.69</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
