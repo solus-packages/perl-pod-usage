@@ -1,8 +1,8 @@
 name       : perl-pod-usage
-version    : 1.69
-release    : 4
+version    : '1.70'
+release    : 5
 source     :
-    - http://search.cpan.org/CPAN/authors/id/M/MA/MAREKR/Pod-Usage-1.69.tar.gz : 1a920c067b3c905b72291a76efcdf1935ba5423ab0187b9a5a63cfc930965132
+    - https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Usage-1.70.tar.gz : 54fc12b61c7661e12e102e56d68f18dfbe8899482bb8f9925db2a18b8b64d43a
 license    : Artistic-1.0-Perl
 component  : programming.perl
 summary    : Pod::Usage - print a usage message from embedded pod documentation
