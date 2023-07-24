@@ -1,6 +1,6 @@
 name       : perl-pod-usage
 version    : '2.03'
-release    : 6
+release    : 7
 source     :
     - https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Usage-2.03.tar.gz : 7d8fdc7dce60087b6cf9e493b8d6ae84a5ab4c0608a806a6d395cc6557460744
 homepage   : https://metacpan.org/pod/Pod::Usage
@@ -19,4 +19,4 @@ install    : |
     # Fix file conflicts with perl parckage
     mv -v $installdir/usr/bin/{pod2usage,pod2usage-%version%}
     mv -v $installdir/usr/share/man/man1/{pod2usage.1,pod2usage-%version%.1}
-    mv -v $installdir/usr/share/man/man3/{Pod::Usage.3pm,Pod::Usage-%version%.3pm}
+    mv -v $installdir/usr/share/man/man3/{Pod::Usage.3,Pod::Usage-%version%.3}
